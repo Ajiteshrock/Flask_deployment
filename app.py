@@ -40,5 +40,5 @@ def linear():
         # return str(life_satisfaction)
         # return render_template("linear_regression.html")
 
-
-app.run()
+if __name__ == '__main__':
+    app.run()
