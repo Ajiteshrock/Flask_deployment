@@ -17,10 +17,11 @@ def ls_prediction(gdp):
 
 
 @app.route("/linear",
-           methods=['POST','GET'])
+           methods=['POST', 'GET'])
 def linear():
-    if (request.method == 'POST'):
+    #if (request.method == 'POST'):
         values = request.form
+        print(values)
         country_name = values['Country_Name']
         gdp = values['GDP']
         gdp = int(gdp)
