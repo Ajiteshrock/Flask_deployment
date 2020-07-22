@@ -34,8 +34,8 @@ def linear():
                 life_satisfaction[0][0]
         }
 
-        return render_template("linear_regression.html",
-                               data=data)
+        return render_template("index.html",
+                               prediction_text='life_satisfaction should be {}'.format(data['life_satisfaction']))
 
         # return str(life_satisfaction)
         # return render_template("linear_regression.html")
