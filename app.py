@@ -17,7 +17,7 @@ def ls_prediction(gdp):
 
 
 @app.route("/linear",
-           methods=['POST', 'GET'])
+           methods=['POST'])
 def linear():
     if (request.method == 'POST'):
         values = request.form
