@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Slabo+27px&display=swap" rel="stylesheet">
+
+</head>
+<style>
+.container
+{
+   font-weight: 900;
+   font-size: 40px;
+   text-align: center;
+   font-family: 'Slabo 27px', serif;
+
+}    
+</style>
+<body>
+    <div class='container'>
+    <p>Name of the country is:{{ data['name'] }}</p>
+    <p>GDP of the country is:{{ data['gdp'] }} $/Captia</p>
+    <p>Life satisfcation of the country is:{{ data['life_satisfaction'] }}</p>
+    </div>
+    
+</body>
+</html>
