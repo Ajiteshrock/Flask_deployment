@@ -20,7 +20,7 @@ def ls_prediction(gdp):
            methods=['POST'])
 def linear():
     if (request.method == 'POST'):
-        values = request.form
+        values = request.form.values()
         country_name = values['Country_Name']
         gdp = values['GDP']
         gdp = int(gdp)
