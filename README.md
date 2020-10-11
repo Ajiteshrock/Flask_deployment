@@ -1,7 +1,7 @@
 # Flask_deployment
 ![Screenshot (20)](https://user-images.githubusercontent.com/47673623/88183390-0c5b1580-cc4f-11ea-9d52-ec15811b2e02.png)
 
-his is a demo project to elaborate how Machine Learn Models are deployed on production using Flask API
+This is a demo project to elaborate how Machine Learn Models are deployed on production using Flask API
 
 ### Prerequisites
 You must have Scikit Learn, Pandas,Joblib (for Machine Leraning Model) and Flask (for API) installed.
